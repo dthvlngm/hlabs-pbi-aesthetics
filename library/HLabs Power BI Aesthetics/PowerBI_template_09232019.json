@@ -1,0 +1,157 @@
+{
+  "name": "HLabs Colors Template - 2019-09-23",
+  "dataColors":
+  [
+    "#4fb24f",
+    "#628fa2",
+    "#f1ef4c",
+    "#78c5c6",
+    "#ffa500",
+    "#b3b3b3",
+    "#4472c4",
+    "#a66999"
+  ],
+  "background": "#ffffff",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{
+          "show": true,
+          "fontColor": {"solid": {"color": "#000000"} },
+          "alignment": "center",
+          "fontSize": 15,
+          "fontFamily": "Arial"
+          }]
+      }
+    },
+  "clusteredColumnChart": {
+    "*": {
+      "categoryAxis": [{
+        "show": true,
+        "labelColor": {"solid": {"color": "#000000"} },
+        "fontFamily": "Arial",
+        "fontSize": 14
+        }],
+      "valueAxis" : [{
+        "show": true,
+        "start": 0,
+        "labelColor": {"solid": {"color": "#000000"} },
+        "fontSize": 12,
+        "fontFamily": "Arial",
+        "gridlineShow": false
+        }],
+      "labels": [{
+        "show": true,
+        "color": {"solid": {"color": "#000000"} },
+        "fontSize": 10,
+        "fontFamily": "Arial"
+        }],
+      "legend": [{
+        "show": true,
+        "position": "Center Right",
+        "labelColor": {"solid": {"color": "#000000"} },
+        "fontFamily": "Arial",
+        "fontSize": 12
+        }]
+    }
+  },
+  "clusteredBarChart": {
+    "*": {
+      "categoryAxis": [{
+        "show": true,
+        "labelColor": {"solid": {"color": "#000000"} },
+        "fontFamily": "Arial",
+        "fontSize": 14
+        }],
+      "valueAxis" :[{
+        "show": true,
+        "start": 0,
+        "labelColor": {"solid": {"color": "#000000"} },
+        "fontSize": 12,
+        "fontFamily": "Arial",
+        "gridlineShow": false
+        }],
+      "labels": [{
+        "show": true,
+        "color": {"solid": {"color": "#000000"} },
+        "fontSize": 10,
+        "fontFamily": "Arial"
+        }],
+      "legend": [{
+        "show": true,
+        "position": "Center Right",
+        "labelColor": {"solid": {"color": "#000000"} },
+        "fontFamily": "Arial",
+        "fontSize": 12
+        }]
+     }
+   },
+  "slicer": {
+    "*": {
+      "selection": [{
+        "selectAllCheckboxEnabled": true,
+        "singleSelect": true
+        }],
+      "header": [{
+        "show": true,
+        "fontColor": {"solid": {"color": "#000000"} },
+        "textSize": 12,
+        "fontFamily": "Arial"
+        }],
+      "items": [{
+        "fontColor": {"solid": {"color": "#000000"} },
+        "textSize": 12,
+        "fontFamily": "Arial"
+        }]
+    }
+  },
+  "LineChart": {
+    "*": {
+      "legend": [{
+        "show": true,
+        "labelColor": {"solid": {"color": "#000000"} },
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "position": "center right"
+        }],
+      "categoryAxis": [{
+        "show": true,
+        "labelColor": {"solid": {"color": "#000000"} },
+        "fontSize": 12,
+        "fontFamily": "Arial",
+        "showAxisTitle": true,
+        "titleColor": {"solid": {"color": "#000000"} },
+        "titleFontFamily": "Arial",
+        "titleFontSize": 12
+        }],
+      "valueAxis": [{
+        "show": true,
+        "position": "Right",
+        "axisScale": "Linear",
+        "labelColor": {"solid": {"color": "#000000"} },
+        "fontSize": 12,
+        "fontFamily": "Arial",
+        "showAxisTitle": true,
+        "titleColor": {"solid": {"color": "#000000"} },
+        "titleFontFamily": "Arial",
+        "titleFontSize": 12,
+        "gridlineShow": false
+        }],
+      "dataLabel": [{
+        "show": true,
+        "color": {"solid": {"color": "#000000"} },
+        "labelDisplayUnits": "Auto",
+        "labelPrecision": 0,
+        "fontSize": 10,
+        "fontFamily": "Arial",
+        "enableBackground": true,
+        "backgroundColor": {"solid": {"color": "#ffffff"} },
+        "backgroundTransparency": 15
+        }],
+      "lineStyles": [{
+        "strokeWidth": 5
+        }]
+     }
+   }
+ }
+}
